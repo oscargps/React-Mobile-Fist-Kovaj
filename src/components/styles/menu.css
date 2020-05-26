@@ -1,0 +1,16 @@
+.menuimg {
+  height: 2em;
+}
+.option {
+  text-align: center;
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  .list-group-item {
+    font-size: 0.6em;
+    font-weight: bold;
+    padding: 0.25rem 0 0.25rem 0 !important;
+    
+  }
+}

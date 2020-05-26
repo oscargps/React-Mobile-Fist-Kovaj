@@ -1,38 +1,45 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  position: fixed; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  top: 0px; /*Abajo deje un espacio de 0px*/
+  height: 120px; /*alto del div*/
+  z-index: 0;
 }
 
-.App-link {
-  color: #61dafb;
+body,
+html {
+  height: 100%; /*Siempre es necesario cuando trabajamos con alturas*/
+}
+.menu {
+  position: fixed; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  bottom: 0px; /*Abajo deje un espacio de 0px*/
+  /* height: 50px; */
+  width: 100%;
+  z-index: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item {
+  background-color: thistle;
+  height: 300px;
+}
+.principal{
+  padding-top:120px;
+}
+.logo{
+  height: 120px;
+  width: auto;
+}
+
+@media (max-width: 600px) {
+.logo{
+  height: 120px;
+  width: 80%;
+}
 }
