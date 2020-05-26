@@ -1,9 +1,17 @@
 .menuimg {
   height: 2em;
 }
+.Link{
+  color: black;
+}
+.Link:hover{
+  color: #007bff;
+}
 .option {
   text-align: center;
   width: 20%;
+  color: black;
+
 }
 
 @media (max-width: 600px) {

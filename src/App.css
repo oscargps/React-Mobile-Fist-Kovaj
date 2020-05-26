@@ -7,10 +7,12 @@
   left: 0px; /*A la derecha deje un espacio de 0px*/
   right: 0px; /*A la izquierda deje un espacio de 0px*/
   top: 0px; /*Abajo deje un espacio de 0px*/
-  height: 120px; /*alto del div*/
+  height: 100px; /*alto del div*/
   z-index: 0;
 }
-
+.AppContent{
+  padding-top: 100px;
+}
 body,
 html {
   height: 100%; /*Siempre es necesario cuando trabajamos con alturas*/
@@ -30,16 +32,16 @@ html {
   height: 300px;
 }
 .principal{
-  padding-top:120px;
+  padding-top:100px;
 }
 .logo{
-  height: 120px;
+  height: auto;
   width: auto;
 }
 
 @media (max-width: 600px) {
-.logo{
-  height: 120px;
+/* .logo{
+  height: 100px;
   width: 80%;
-}
+} */
 }
