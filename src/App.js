@@ -4,7 +4,6 @@ import logo from "./static/logo.png";
 import Menu from "./components/menu";
 import Home from "./pages/Home";
 import Layout from "./components/layout";
-
 import "./App.css";
 
 function App() {

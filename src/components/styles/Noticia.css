@@ -1,0 +1,19 @@
+.Noticia{
+    border-radius: 15px;
+    height: 100px;
+    width: 150px;
+    margin: 0 1em;
+}
+.Noticia__Imagen{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 150px;
+}
+
+.Noticia__texto{
+    background-color: cadetblue;
+    color: black;
+    height: 30px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

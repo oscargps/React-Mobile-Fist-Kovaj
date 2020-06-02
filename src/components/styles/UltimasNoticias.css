@@ -1,0 +1,36 @@
+.UltimasNoticias {
+  margin-top: 2em;
+}
+
+.Noticias {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 160px;
+  padding-top: 1em;
+}
+.Noticias::-webkit-scrollbar {
+  /* solo oculta su visualizacion */
+  display: none;
+}
+.title {
+  color: #005992;
+  font-weight: bold;
+}
+.seemore {
+  color: #005992;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+body {
+  /* solo oculta su visualizacion */
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .Noticias{
+
+        overflow: scroll;
+    }
+  }
+  

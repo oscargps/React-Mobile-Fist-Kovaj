@@ -1,12 +1,30 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
+import "./styles/Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import UltimasNoticias from "../components/UltimasNoticias";
+class Home extends Component {
+  state = {
+    searching: false,
+  };
 
-
-class Home extends Component{
-    render(){
-        return(
-            <h4>Aqui va el home</h4>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <div className="row">
+          <div className="col col-xs-8">nombre</div>
+          <div className="col col-xs-4">
+            <button type="button" className="SearchButton">
+              <FontAwesomeIcon icon={faSearch} />
+            </button>
+          </div>
+        </div>
+        <div>
+          <UltimasNoticias />
+        </div>
+      </div>
+    );
+  }
 }
 
-export default Home
+export default Home;
