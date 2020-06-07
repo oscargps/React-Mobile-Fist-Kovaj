@@ -11,7 +11,7 @@ const LavadoManos = (props) => {
       <div className=" ">
         <p className="Porcentaje">80%</p>
         <p className="text">Se lavaron las manos</p>
-        <p className="seemore">Ver mas...</p>
+        <p className="seemore">Ver mas></p>
       </div>
     </div>
   );
