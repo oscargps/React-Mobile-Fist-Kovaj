@@ -8,6 +8,7 @@
 .EstadodeAnimo__titulo{
     color: #005992;
     font-weight: bold;
+    font-size: 0.8em;
 }
 .EstadodeAnimo__emojis{
     
@@ -17,22 +18,22 @@
 }
 .EstadodeAnimo__emojis-emojis
 {
-    height: 42px;
+    height: 35px;
 }
 .EstadodeAnimo__emojis-porcentaje{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 .EstadodeAnimo__seemore{
     display: flex;
     justify-content: flex-end;
-    font-size: 0.8em;
+    font-size: 0.6em;
     font-weight: bold;
     color: #005992 ;
     padding-right: 0.5em;
 }
 @media (max-width: 600px) {
     .EstadodeAnimo {
-      width: 40%;
+      width: 35%;
     }
   }

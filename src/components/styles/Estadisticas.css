@@ -1,5 +1,6 @@
 .Estadisticas{
     margin-top: 1em;
-    height: 120px;
+    height: 100px;
     display: flex;
+    justify-content: space-around;
 }

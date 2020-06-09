@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import UltimasNoticias from "../components/UltimasNoticias";
 import Estadisticas from "../components/Estadisticas";
+import ConsejosOficiales from "../components/ConsejosOficiales";
 class Home extends Component {
   state = {
     searching: false,
@@ -11,7 +12,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Home">
         <div className="row">
           <div className="col col-xs-8">nombre</div>
           <div className="col col-xs-4">
@@ -25,6 +26,9 @@ class Home extends Component {
         </div>
         <div>
             <Estadisticas/>
+        </div>
+        <div>
+        <ConsejosOficiales/>
         </div>
       </div>
     );

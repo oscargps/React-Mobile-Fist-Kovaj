@@ -1,12 +1,9 @@
-.UltimasNoticias {
-  margin-top: 2em;
-}
 
 .Noticias {
   display: flex;
   flex-direction: row;
   overflow: hidden;
-  height: 160px;
+  height: 140px;
   padding-top: 1em;
 }
 .Noticias::-webkit-scrollbar {

@@ -4,14 +4,14 @@ import EstadodeAnimo from "../components/EstadodeAnimo";
 import "./styles/Estadisticas.css";
 const Estadisticas = (props) => {
   return (
-    <div >
+    <div>
       <div className="row">
         <div className="col title">Estadisticas</div>
         <div className="col seemore">Ver Todo ></div>
       </div>
       <div className="Estadisticas">
-      <LavadoManos />
-      <EstadodeAnimo />
+        <LavadoManos />
+        <EstadodeAnimo />
       </div>
     </div>
   );

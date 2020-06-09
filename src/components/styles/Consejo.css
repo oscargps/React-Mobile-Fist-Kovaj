@@ -1,0 +1,48 @@
+.Consejo{
+    height: 100px;
+    width: 10%;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin: 0.5em 0.5em;
+   
+}
+.Consejo__icon{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 25px;
+  height: 3em;
+  background-color: white;
+  margin-top: 1em;
+  padding: 0.4em;
+  margin-left: 1em;
+}
+.Consejo_Title{
+  font-size: 0.8em;
+  text-align: left;
+  color: white;
+  margin-left: 0.6em;
+}
+
+@media (max-width: 600px) {
+    .Consejo {
+      width: 70px;
+      height: 70px;
+      
+    }
+    .Consejo_Title{
+      font-size: 0.6em;
+      
+    }
+    .Consejo__icon{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border-radius: 25px;
+      height: 1.8em;
+      background-color: white;
+      margin-top: 0.5em;
+      padding: 0.2em;
+      margin-left: 0.5em;
+    }
+  }

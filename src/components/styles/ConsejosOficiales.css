@@ -1,0 +1,10 @@
+.ConsejosOficiales{
+    margin-left: 1em;
+    height: 120px;
+}
+.ConsejosOficiales__title{
+text-align: start;
+}
+.ConsejosOficiales__consejos{
+    display: flex;
+}

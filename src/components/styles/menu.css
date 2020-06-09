@@ -1,5 +1,5 @@
 .menuimg {
-  height: 2em;
+  height: 1.5em;
 }
 .Link{
   color: black;
@@ -20,5 +20,8 @@
     font-weight: bold;
     padding: 0.25rem 0 0.25rem 0 !important;
     
+  }
+  .menuimg {
+    height: 2em;
   }
 }

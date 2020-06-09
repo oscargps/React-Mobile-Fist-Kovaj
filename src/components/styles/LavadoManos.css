@@ -11,21 +11,22 @@
   margin-top: 2em;
 }
 .Porcentaje{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0;
 }
 .text{
-    font-size: 1.2em;
-    line-height: 0.8em;
+    font-size: 1em;
+    line-height:1em;
     color: #005992;
 }
 .seemore{
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 @media (max-width: 600px) {
   .LavadoManos {
-    width: 40%;
+    width: 35%;
+    
   }
 }

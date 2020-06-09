@@ -13,14 +13,14 @@ function App() {
         <img src={logo} alt="" className="logo" />
       </header>
       <div className="AppContent">
-      <BrowserRouter>
-        <Layout>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-          </Switch>
-        </Layout>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Layout>
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/home" component={Home} />
+            </Switch>
+          </Layout>
+        </BrowserRouter>
       </div>
       <div className="menu">
         <Menu />
