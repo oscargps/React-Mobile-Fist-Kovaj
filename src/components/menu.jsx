@@ -4,14 +4,14 @@ import userImg from "../static/user.svg";
 import statisticsImg from "../static/graph.svg";
 import reportsImg from "../static/confirmation.svg";
 import settingsImg from "../static/settings.svg";
-import { Link, BrowserRouter  } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "./styles/menu.css";
 const Menu = (props) => {
   return (
-    <BrowserRouter>
+    <div>
       <ul className="list-group list-group-horizontal">
         <li className=" option list-group-item ">
-          <Link to="/home" className="Link">
+          <Link to="/" className="Link">
             <div>
               <img src={homeImg} alt="" className="menuimg" />
               <br />
@@ -27,11 +27,11 @@ const Menu = (props) => {
           </div>
         </li>
         <li className=" option list-group-item ">
-          <div>
-            <img src={statisticsImg} alt="" className="menuimg" />
-            <br />
-            Estadisticas
-          </div>
+          <Link to="/estadisticas" className="Link">
+              <img src={statisticsImg} alt="" className="menuimg" />
+              <br />
+              Estadisticas
+          </Link>
         </li>
         <li className=" option list-group-item ">
           <div>
@@ -48,7 +48,7 @@ const Menu = (props) => {
           </div>
         </li>
       </ul>
-    </BrowserRouter>
+    </div>
   );
 };
 

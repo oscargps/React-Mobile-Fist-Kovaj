@@ -1,7 +1,7 @@
 import React from "react";
 import LavadoManos from "../components/LavadoManos";
 import EstadodeAnimo from "../components/EstadodeAnimo";
-import "./styles/Estadisticas.css";
+import "./styles/EstadisticasComp.css";
 const Estadisticas = (props) => {
   return (
     <div>
@@ -9,7 +9,7 @@ const Estadisticas = (props) => {
         <div className="col title">Estadisticas</div>
         <div className="col seemore">Ver Todo ></div>
       </div>
-      <div className="Estadisticas">
+      <div className="EstadisticasComp">
         <LavadoManos />
         <EstadodeAnimo />
       </div>

@@ -3,7 +3,7 @@ import "./styles/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import UltimasNoticias from "../components/UltimasNoticias";
-import Estadisticas from "../components/Estadisticas";
+import EstadisticasComp from "../components/EstadisticasComp";
 import ConsejosOficiales from "../components/ConsejosOficiales";
 class Home extends Component {
   state = {
@@ -25,7 +25,7 @@ class Home extends Component {
           <UltimasNoticias />
         </div>
         <div>
-            <Estadisticas/>
+            <EstadisticasComp/>
         </div>
         <div>
         <ConsejosOficiales/>
