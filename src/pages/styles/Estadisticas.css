@@ -35,6 +35,12 @@
     right: -70px;
     top: 8px;
 }
+.EstadoPersonal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 1em;
+    height: 12em;
+}
 
 @media (max-width: 1000px) {
     .Estadisticas__header-img{

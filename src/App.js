@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import logo from "./static/logo.png";
-import Menu from "./components/menu";
+import Menu2 from "./components/Menu2";
 import Home from "./pages/Home";
 import Estadisticas from "./pages/Estadisticas";
 import Layout from "./components/layout";
@@ -22,9 +22,7 @@ function App() {
             </Switch>
           </Layout>
         </div>
-        <div className="menu">
-          <Menu />
-        </div>
+        <Menu2 />
       </div>
     </BrowserRouter>
   );

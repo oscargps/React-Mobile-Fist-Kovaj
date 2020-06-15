@@ -1,11 +1,13 @@
-
+.UltimasNoticias{
+  height: 20%;
+}
 .Noticias {
   display: flex;
-  flex-direction: row;
   overflow: scroll;
   overflow-y: hidden;
   height: 140px;
   padding-top: 1em;
+  margin-top: 10px;
 }
 .Noticias::-webkit-scrollbar {
   /* solo oculta su visualizacion */
@@ -27,8 +29,12 @@ body {
 
 @media (max-width: 600px) {
     .Noticias{
-
-        overflow: scroll;
+      display: flex;
+      overflow: scroll;
+      overflow-y: hidden;
+      margin-top: 0;
+      height: 200px;
+      padding-top: 1em;
     }
   }
   

@@ -9,7 +9,7 @@ import "./styles/menu.css";
 const Menu = (props) => {
   return (
     <div>
-      <ul className="list-group list-group-horizontal">
+      <ul className="list-group list-group-horizontal Menu__List">
         <li className=" option list-group-item ">
           <Link to="/" className="Link">
             <div>

@@ -1,5 +1,40 @@
 
 
+.HeaderHome{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+
+}
+.HeaderHome__UserName{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.UserName__inicial{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color:#005992;
+  color: white;
+  font-size: 2.4em;
+  font-weight: bold;
+  
+}
+.UserName__Name{
+  text-align: left;
+  padding-left: 1em;
+  color: #005992 ;
+}
+
+.UserName__Name p{
+  margin-bottom: 0;
+}
+.UserName__Name:last-child{
+  font-weight: bolder;
+}
 .SearchBar {
   background-color: transparent;
   border: 1px solid #005992;

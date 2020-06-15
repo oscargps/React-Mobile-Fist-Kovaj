@@ -1,0 +1,34 @@
+.Menu{
+    display: flex;
+    position: fixed; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    width: 100%;
+    height: 9vh;
+    background-color: white;
+}
+.Menu__Item{
+    width: 20%;
+
+    align-self: center;
+    color: black;
+    text-decoration: none;
+}
+.Menu__Item-img{
+    height: 1.2em;
+}
+.Link{
+    color: black;
+  }
+
+
+@media (max-width: 600px) {
+    .Menu__Item{
+        font-size: 0.9em;
+    }
+    .Menu__Item-img{
+        height: 1em;
+    }
+    
+}

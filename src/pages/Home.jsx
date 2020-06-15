@@ -13,23 +13,23 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="row">
-          <div className="col col-xs-8">nombre</div>
-          <div className="col col-xs-4">
+        <div className="HeaderHome">
+          <div className="HeaderHome__UserName">
+            <div className="UserName__inicial">U</div>
+            <div className="UserName__Name">
+              <p>Bienvenido</p>
+              <p>URRA SA ESP</p>
+            </div>
+          </div>
+          <div className="HeaderHome__Search">
             <button type="button" className="SearchButton">
               <FontAwesomeIcon icon={faSearch} />
             </button>
           </div>
         </div>
-        <div>
-          <UltimasNoticias />
-        </div>
-        <div>
-            <EstadisticasComp/>
-        </div>
-        <div>
-        <ConsejosOficiales/>
-        </div>
+        <UltimasNoticias />
+        <EstadisticasComp />
+        <ConsejosOficiales />
       </div>
     );
   }

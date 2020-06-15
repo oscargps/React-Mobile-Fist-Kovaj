@@ -3,6 +3,7 @@ import statisticsImg from "../static/graph.svg";
 import LavadoManos from "../components/LavadoManos";
 import CasoSospechosos from "../components/CasoSospechosos";
 import EstadodeAnimo from "../components/EstadodeAnimo";
+import EstadodeSalud from "../components/EstadodeSalud";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -33,6 +34,10 @@ class Estadisticas extends Component {
             <EstadodeAnimo />
           </div>
           <CasoSospechosos />
+          <div className="EstadoPersonal">
+            <EstadodeSalud/>
+            <EstadodeSalud/>
+          </div>
         </div>
       </div>
     );

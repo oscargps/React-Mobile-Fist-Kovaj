@@ -13,6 +13,9 @@
   color: black;
 
 }
+.Menu__List{
+  height: 4em;
+}
 
 @media (max-width: 600px) {
   .list-group-item {
@@ -23,5 +26,8 @@
   }
   .menuimg {
     height: 2em;
+  }
+  .Menu__List{
+    height: 3em;
   }
 }

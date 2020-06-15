@@ -1,13 +1,13 @@
 .Noticia{
     border-radius: 15px;
-    height: 100px;
+    height: 2vh;
     width: 150px;
     margin: 0 1em;
 }
 .Noticia__Imagen{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    width: 150px;
+    width: inherit;
 }
 
 .Noticia__texto{
@@ -16,4 +16,17 @@
     height: 30px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+@media (max-width: 600px) {
+    .Noticia{
+        border-radius: 15px;
+        height: 2vh;
+        width: 200px;
+        margin: 0 1em;
+    }
+    .Noticia__Imagen{
+
+        width: inherit;
+    }
+    
 }
