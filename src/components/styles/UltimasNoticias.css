@@ -2,7 +2,8 @@
 .Noticias {
   display: flex;
   flex-direction: row;
-  overflow: hidden;
+  overflow: scroll;
+  overflow-y: hidden;
   height: 140px;
   padding-top: 1em;
 }

@@ -1,9 +1,9 @@
 .Consejo{
     height: 100px;
-    width: 10%;
+    width: 20%;
     background-color: skyblue;
     border-radius: 15px;
-    margin: 0.5em 0.5em;
+    margin: 0.5em 2em;
    
 }
 .Consejo__icon{
@@ -28,6 +28,7 @@
     .Consejo {
       width: 70px;
       height: 70px;
+      margin: 0.5em 0.5em;
       
     }
     .Consejo_Title{

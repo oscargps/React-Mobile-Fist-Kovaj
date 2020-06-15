@@ -1,0 +1,32 @@
+.CasoSospechosos {
+  border-radius: 10px;
+  background-color: lemonchiffon;
+  margin: 1em;
+  height: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 80%;
+}
+.CasoSospechosos__Img{
+  height: 5rem;
+  align-self: center;
+  justify-self: center;
+  padding-left: .5em;
+}
+.CasoSospechosos__Content{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.CasoSospechosos__Content p{
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.CasoSospechosos__Content-suspect{
+  color: red;
+}
+@media (max-width: 600px) {
+  .CasoSospechosos {
+    width: auto;
+    margin: 1em .5em 1em 7%;
+  }
+}

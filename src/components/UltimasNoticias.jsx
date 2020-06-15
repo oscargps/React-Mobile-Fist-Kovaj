@@ -17,6 +17,10 @@ const LastNews = (props) => {
         <Noticia />
         <Noticia />
         <Noticia />
+        <Noticia />
+        <Noticia />
+        <Noticia />
+        <Noticia />
       </div>
     </div>
   );

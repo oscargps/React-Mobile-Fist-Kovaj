@@ -7,9 +7,9 @@ const ConsejosOficiales = () => {
       <div className=" title ConsejosOficiales__title">Consejos Oficiales</div>
       <div className="ConsejosOficiales__consejos">
         <Consejo title="¿Que son los coronavirus?" />
-        <Consejo bg="#eaec6d" color="black" title="¿Cuales son los sintomas?" />
+        <Consejo bg=" #f6f957 " color="black" title="¿Cuales son los sintomas?" />
         <Consejo title="Cómo se transmite" />
-        <Consejo bg="#eaec6d" color="black" title="Cómo prevenirlo" />
+        <Consejo bg="#f6f957 " color="black" title="Cómo prevenirlo" />
       </div>
     </div>
   );
