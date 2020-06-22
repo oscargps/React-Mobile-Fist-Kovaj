@@ -2,4 +2,24 @@
     background-color: lightgray;
     border-radius: 10px;
     margin: 0 1em;
+    padding: 10px;
+}
+.EstadodeSalud__title{
+    font-size: 1em;
+    color: #005992;
+    font-weight: bold;
+}
+.EstadodeSalud__Imagen{
+    height: 6em;
+}
+.EstadodeSalud__Porcentaje{
+    color: #005992;
+    font-weight: bold;
+    font-size: 2em;
+}
+.EstadodeSalud__more{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: end;
+    color: #005992 ;
 }
