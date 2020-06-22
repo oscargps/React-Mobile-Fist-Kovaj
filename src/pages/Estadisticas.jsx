@@ -4,6 +4,7 @@ import LavadoManos from "../components/LavadoManos";
 import CasoSospechosos from "../components/CasoSospechosos";
 import EstadodeAnimo from "../components/EstadodeAnimo";
 import EstadodeSalud from "../components/EstadodeSalud";
+import CasosdeFiebre from "../components/CasosdeFiebre";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -36,7 +37,7 @@ class Estadisticas extends Component {
           <CasoSospechosos />
           <div className="EstadoPersonal">
             <EstadodeSalud/>
-            <EstadodeSalud/>
+            <CasosdeFiebre/>
           </div>
         </div>
       </div>

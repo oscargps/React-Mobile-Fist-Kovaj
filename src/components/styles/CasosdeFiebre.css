@@ -1,0 +1,30 @@
+.CasosdeFiebre{
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 0 1em;
+    padding: 10px;
+}
+.CasosdeFiebre__Alta{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1em 0;
+}
+.CasosdeFiebre__title{
+    font-size: 1em;
+    color: #005992;
+    font-weight: bold;
+}
+.CasosdeFiebre__Imagen{
+    height: 4em;
+}
+.CasosdeFiebre__Porcentaje{
+    color: #005992;
+    font-weight: bold;
+    font-size: 2em;
+}
+.CasosdeFiebre__more{
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: end;
+    color: #005992 ;
+}

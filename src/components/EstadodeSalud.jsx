@@ -9,7 +9,7 @@ const EstadodeSalud = () =>{
             <p className="EstadodeSalud__Porcentaje">
             98%
             </p>
-            <p className="EstadodeSalud__more">Ver mas...</p>
+            <p className="EstadodeSalud__more">Ver mas  ></p>
 
         </div>
     )
