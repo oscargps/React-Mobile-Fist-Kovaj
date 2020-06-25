@@ -4,6 +4,7 @@ import logo from "./static/logo.png";
 import Menu2 from "./components/Menu2";
 import Home from "./pages/Home";
 import Estadisticas from "./pages/Estadisticas";
+import Empresa from "./pages/Empresa";
 import Layout from "./components/layout";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/estadisticas" component={Estadisticas} />
+              <Route exact path="/empresa" component={Empresa} />
             </Switch>
           </Layout>
         </div>
